@@ -1,0 +1,187 @@
+body,html
+  font-weight: 200
+  font-family: PingFangSC
+
+h2,h3
+	font-family: PingFangSC
+	font-size: 300
+  
+li
+  list-style-type :none
+
+.clearfix
+  display: inline-block
+  margin-left: 3.5em
+   
+div input.has-danger
+   border: 1px solid red
+  
+// 通栏页面的样式
+.flex-container
+	input,textarea
+		border: 0
+		box-shadow: 0 0
+		border-bottom: 1px solid #f1f1f1
+		font-size: 14px
+		
+.top-bar
+	position: fixed
+	top: 64px
+	left: 0
+	height: 64px
+	width: 100%
+	background-color: #fff
+	z-index: 666
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1)
+
+.btn-bar
+	align-self: center
+	
+.capital
+	font-family: PingFangSC-Light
+	font-weight: 100
+	color: black
+	font-size: 14px
+	position: absolute
+	top: 0
+	line-height: 64px
+	span
+		color: #AFAFAF
+		
+.info
+	// margin-top: 186.7px
+	z-index: -1
+	
+.settings
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: flex-start
+	height: 64px
+	
+.item
+	margin-left:20px
+	margin-right:20px
+	height:2.5em
+	width:8em
+	line-height:2.5em
+	padding:0
+	
+.item:hover
+	cursor: pointer
+	
+.flex-container
+	width: 100%
+	margin: 0
+	height: 40px
+	padding-left: 13.3px
+	display: flex
+	flex-wrap: nowrap
+	align-items: baseline
+	
+.control-label
+	width: auto
+	flex-grow: none
+	font-family: PingFangSC
+	font-size: 14px
+	color: #777
+	font-weight: 300
+	
+.input-bar
+	flex-grow: 1
+	margin-left:15px
+.form-flex-container
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	margin-top: 1em
+	
+.form-item
+	width: 50%
+	
+.form-item:nth-of-type(odd) 
+	.input-bar
+		padding-right: 52.3px
+	
+.baseinfo
+	height: 194px
+
+.datainfo, .connectinfo
+	height: auto
+	
+.test-btn
+	width: 100%
+	button
+		border: none
+		background-color: transparent
+		color: #109EFC
+		font-size: 14px
+		line-height: 68px
+		border-bottom: 1px solid #f1f1f1
+
+.input-btn
+	margin: 1em
+.info .form-horizontal .form-group
+	margin-right: 0
+	margin-left: 0
+	
+.form-control
+	color: #000
+	height: 32px
+
+h3
+	font-size: 14px
+	line-height: 48px
+	border-bottom: 1px solid #f1f1f1
+	margin-bottom: 15px
+	font-weight: 400
+// .info h3
+// 	display:inline-block	
+
+
+// 通栏页面的样式end
+
+
+
+// -----------------------------------------------custom 零碎样式
+.custom-cursor-pointer
+	cursor:pointer
+.middleline-topbar
+	margin-top: 128px
+	
+.footer-space 
+	margin-bottom: 40.6px
+	
+.height-auto 
+	height: auto
+.info .flex-container	.cutom-require-item
+	position:relative
+	&:before
+		content: url('../resource/img/requireitem.png')
+		position:absolute
+		top: 5px
+		left:-10px
+// ---------------------------------------表单提交 信息提示样式
+
+.custom-form-info {
+	position: absolute
+    top: 1em
+    left: 6em
+	    img {
+	    	width:14px
+	    	height:14px
+	    	margin-left:10px
+	    	margin-right:5px
+	    }
+		.untest-info {
+			color:#D8D8D8
+		}
+	    .failed-info {
+	    	color:#F44141
+	    }
+	    .success-info {
+	    	color:#52D623
+	    }
+}
+
+

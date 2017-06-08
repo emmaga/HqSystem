@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分诊台-新建分诊台" transform="translate(-302.000000, -1047.000000)">
+            <g id="SQL连接信息" transform="translate(0.000000, 1016.000000)">
+                <g id="未测试连接" transform="translate(302.000000, 24.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 7.000000)">
+                        <path d="M15,1.77635684e-15 C6.71428573,1.77635684e-15 0,6.71428573 0,15 C0,23.2857143 6.71428573,30 15,30 C23.2857143,30 30,23.2857143 30,15 C30,6.71785716 23.2821429,1.77635684e-15 15,1.77635684e-15 L15,1.77635684e-15 Z" id="Shape" fill="#D8D8D8" fill-rule="nonzero"></path>
+                        <path d="M15,7.5 C14.3107143,7.5 13.75,8.0607143 13.75,8.74999999 L13.75,16.875 C13.75,17.5642857 14.3107143,18.125 15,18.125 C15.6892857,18.125 16.25,17.5642857 16.25,16.875 L16.25,8.75000001 C16.2464286,8.0607143 15.6892857,7.5 15,7.5 L15,7.5 Z" id="Path" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF"></path>
+                        <path d="M15,20 C14.3107143,20 13.75,20.5607143 13.75,21.25 C13.75,21.9392857 14.3107143,22.5 15,22.5 C15.6892857,22.5 16.25,21.9392857 16.25,21.25 C16.2464286,20.5607143 15.6892857,20 15,20 L15,20 Z" id="Path" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
