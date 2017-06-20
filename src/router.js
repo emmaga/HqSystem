@@ -20,6 +20,8 @@ import editQueue from 'components/editQueue/editQueue'
 import editWorker from 'components/editWorker/editWorker'
 import userManage from 'components/userManage/userManage'
 import editUser from 'components/editUser/editUser'
+import terminalManage from 'components/terminalManage/terminalManage'
+import editVoiceBox from 'components/terminalManage/editVoiceBox'
 // 页面 工作页面
 import workStation from 'components/workStation/workStation'
 Vue.use(VueRouter)
@@ -170,6 +172,24 @@ const routes = [
                 name: 'editCaller',
                 path: 'editCaller',
                 component: editCaller,
+                meta: {
+                    requireAuth: true,
+                    keepAlive: false
+                }
+            },
+            {
+                name: 'terminalManage',
+                path: 'terminalManage',
+                component: terminalManage,
+                meta: {
+                    requireAuth: true,
+                    keepAlive: false
+                }
+            },
+            {
+                name: 'editVoiceBox',
+                path: 'editVoiceBox',
+                component: editVoiceBox,
                 meta: {
                     requireAuth: true,
                     keepAlive: false
