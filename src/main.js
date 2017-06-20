@@ -11,6 +11,9 @@ import router from './router'
 // axios 请求的统一处理
 import axios from './http'
 
+// 引入Slider element-ui
+import { Slider } from 'element-ui'
+Vue.use(Slider)
 
 // 将axios挂载到prototype上，在组件中可以直接使用this.axios访问
 Vue.prototype.axios = axios;
@@ -19,7 +22,7 @@ var app = new Vue({
   router,
   store,
   axios,
-  template: '<App>',
+  template: '<App/>',
   components: {
     App
   }

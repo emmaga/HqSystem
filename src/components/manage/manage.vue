@@ -6,6 +6,9 @@
 		            <li @click="goToState('stationList', 0)" id="fenzhentai" class="manage-tab  custom-cursor-pointer">
 			            <div class="label" :class="{'isChoose':showInfoNumber == 0}"><i class="iconfont icon-fenzhentai"></i><h2>分诊台</h2></div>
 					</li>
+					<li @click="goToState('terminalManage', 5)" id="fenzhentai" class="manage-tab custom-cursor-pointer">
+						<div class="label" :class="{'isChoose':showInfoNumber == 5}"><i class="iconfont icon-shujufenxi"></i><h2>终端管理</h2></div>
+					</li>
 					<li @click="goToState('stationList', 1)" id="fenzhentai" class="manage-tab custom-cursor-pointer">
 						<div class="label" :class="{'isChoose':showInfoNumber == 1}"><i class="iconfont icon-shujufenxi"></i><h2>数据分析</h2></div>
 					</li>
