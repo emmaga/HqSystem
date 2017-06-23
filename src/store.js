@@ -8,7 +8,7 @@ const store = new Vuex.Store({
     token: null,
     serverUrl: 'http://192.168.17.187/hqueue/',
     // todo 上传地址 openvod的地址
-    upLoadUrl: 'http://mres.cleartv.cn/upload',
+    upLoadUrl: 'http://192.168.17.187/headpicUpload',
     // 记录各个tab的当前Number
     tab: {
          // station页面点击的是那个tab

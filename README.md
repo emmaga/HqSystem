@@ -16,3 +16,7 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# 部署时修改配置文件位置
+static/js/app.xxxxxxxxxxxxxxxxxxxx.js
+serverUrl & upLoadUrl

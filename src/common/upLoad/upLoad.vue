@@ -11,7 +11,7 @@ a:hover {
 </style>
 <template lang="html">
 	<div class="upload">
-		<input type="file"  ref="chooseBtn" class="chooseBtn" @change="change" accept="image/*">
+		<input type="file" ref="chooseBtn" class="chooseBtn" @change="change" accept="image/*">
 		<a class="" @click="chooseFile" ref="upLoadBtn" class="upLoadBtn custom-cursor-pointer">上传</a>
 	</div>
 </div>
@@ -45,7 +45,7 @@ a:hover {
                 let formData = new FormData();
                 // 普通上传
                 formData.append('action', 'normal');
-				formData.append('file', uploadImg.files[0])
+				formData.append('myfile', uploadImg.files[0])
 				// formData.append('type', 'normal')
 				let request = new XMLHttpRequest();
 				request.open('POST', self.upLoadUrl, true);
