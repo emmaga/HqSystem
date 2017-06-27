@@ -14,7 +14,7 @@ a:hover {
 		<input type="file" ref="chooseBtn" class="chooseBtn" @change="change" accept="image/*">
 		<a class="" @click="chooseFile" ref="upLoadBtn" class="upLoadBtn custom-cursor-pointer">上传</a>
 	</div>
-</div>
+
 
 </template>
 <script >
