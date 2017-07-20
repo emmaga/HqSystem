@@ -12,11 +12,11 @@ import router from './router'
 import axios from './http'
 
 // 引入Slider element-ui
-import { Slider } from 'element-ui'
+import { Slider, Message } from 'element-ui'
 Vue.use(Slider)
-
 // 将axios挂载到prototype上，在组件中可以直接使用this.axios访问
 Vue.prototype.axios = axios;
+Vue.prototype.$message = Message
 
 var app = new Vue({
   router,

@@ -183,6 +183,7 @@
 		               	   <table class="table">
 		               	   		<thead>
 		               	   			<tr>
+		               	   			    <th>ID</th>
 			               	        	<th>名称</th>
 			               	        	<th>类型</th>
 			               	        	<th>IP</th>
@@ -194,6 +195,7 @@
 		               	   	    <tbody>
 		               	   	         <div class="noData" v-if="callerList.length == 0">没有叫号器</div>
 		               	   	        <tr v-for="caller in callerList">
+		               	   	            <td>{{caller.id}}</td>
 		               	   	        	<td>{{caller.name}}</td>
 		               	   	        	<td>{{caller.type | getCallerType}}</td>
 		               	   	        	<td>{{caller.ip}}</td>
